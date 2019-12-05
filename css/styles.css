@@ -1,5 +1,12 @@
 body{background-image: url("assets/backgrounds/h_img.jpg");
-    background-size: 100% ;
+    background-size: cover ;
+    background-repeat:no-repeat;
 margin: auto;}
 #dlogo{margin-top: 220px;
-margin-left: 590px;}
+margin-left: 590px;
+float: none;}
+
+p#Header{text-align: center;
+padding: 10px;
+color: whitesmoke;
+font-size: 3em;}
