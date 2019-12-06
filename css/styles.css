@@ -52,6 +52,12 @@ background-size: 100% ;
 background-repeat: no-repeat;
 height: 800px;}
 
+div p.keyboardImageText{margin-right: 0;
+margin-left: 0;
+text-align:center ;
+padding-top: 110px;
+color: whitesmoke;}
+
 
 @media screen and (max-width :800px){.Dlogo{margin-left: 300px;
     margin-top: -5px
