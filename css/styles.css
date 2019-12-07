@@ -18,7 +18,7 @@ margin-right:0 ;
     
 }
 
-.Dlogo{margin-left: 575px;
+.Dlogo{margin-left: auto;
 margin-right: auto;
 display: block;
 padding-top:240px ;
@@ -71,6 +71,17 @@ color: whitesmoke;}
 .footerImage{background-image: url("assets/backgrounds/c_image.jpg");
 height: 900px;
 background-repeat: no-repeat;}
+
+::placeholder{color:whitesmoke;
+padding: 10px;}
+#input{background: transparent;}
+textarea{background: transparent;
+color: white;}
+
+
+@media screen and(max-width: 700px){.Dlogo{padding-left: -11500px;}}
+
+
 
 
 
