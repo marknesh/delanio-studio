@@ -6,4 +6,6 @@ $("h6.iconDevelopment").click(function(){
 })
 $("h6.iconProduct").click(function(){
     $("p.hideProduct").toggle()
+
+    event.preventDefault();
 })
