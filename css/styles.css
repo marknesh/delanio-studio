@@ -1,9 +1,14 @@
 body{padding: 0;
 margin: 0;
 height: 3000px;
-overflow:auto;}
+overflow:auto;
+margin-right:0 ;
+}
 .container{height: 850px;
-    margin: auto;
+    margin:0;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
     max-width:2000px ;}
 
 .headerSection{background-image: url("assets/backgrounds/h_img.jpg");
@@ -17,12 +22,13 @@ overflow:auto;}
 margin-right: auto;
 display: block;
 padding-top:240px ;
-width: 80px;
+
+
 }
 
 p.textHeader{margin-right: 0;
     margin-left: 0;
-    padding: 50px;
+    padding: 35px;
     text-align: center;
 color: whitesmoke;
 font-size: 46px;}
@@ -33,7 +39,7 @@ font-size: 46px;}
     margin-right: 0;
     text-align: center;
     display: block;
-    margin-top: -70px;
+    margin-top: -60px;
     
     
 }
@@ -41,27 +47,33 @@ font-size: 46px;}
 .mouselogo{margin-left: auto;
 margin-right: auto;
 display: block;
-margin-top: 47px;
+margin-top: 49px;
 padding:150px}
 
 .middleSection{text-align: center;}
 .pmiddleSection{font-size:18px}
 
 .keyboardImage{background-image: url("assets/backgrounds/s_image.jpg");
-background-size: 100% ;
+background-size: 100% 100%;
 background-repeat: no-repeat;
-height: 800px;}
+height: 250px;
+margin: 0;
+padding: 0;
+}
 
-div p.keyboardImageText{margin-right: 0;
+div p.keyboardImageText{margin: 0;
+    padding: 0;
 margin-left: 0;
+margin-top: 80px;
 text-align:center ;
-padding-top: 110px;
 color: whitesmoke;}
 
+.footerImage{background-image: url("assets/backgrounds/c_image.jpg");
+height: 900px;
+background-repeat: no-repeat;}
 
-@media screen and (max-width :800px){.Dlogo{margin-left: 300px;
-    margin-top: -5px
-    }};
+
+
 
 
 
