@@ -1,10 +1,9 @@
 body{padding: 0;
 margin: 0;
-height: 3000px;
 overflow:auto;
 margin-right:0 ;
 }
-.container{height: 850px;
+.container{
     margin:0;
     padding: 0;
     margin-left: 0;
@@ -12,7 +11,8 @@ margin-right:0 ;
     max-width:2000px ;}
 
 .headerSection{background-image: url("assets/backgrounds/h_img.jpg");
-    height: 800px;    
+    height: 800px;
+    width: 100%;    
     background-size: 100% 100%;    
     background-repeat:no-repeat;
     
@@ -69,7 +69,7 @@ text-align:center ;
 color: whitesmoke;}
 
 .footerImage{background-image: url("assets/backgrounds/c_image.jpg");
-height: 900px;
+height: 100%;
 background-repeat: no-repeat;}
 
 ::placeholder{color:whitesmoke;
@@ -79,6 +79,12 @@ background: transparent;}
 .form-control::placeholder { color: white;}
 :-ms-input-placeholder.form-control { color: white; }  
 .form-control::-ms-input-placeholder { color: white; }  
+
+.hideDesign{display: none;}
+.hideDevelopment{display: none;}
+.hideProduct{display: none;}
+
+h6{cursor: pointer;}
 
 
 @media screen and(max-width: 700px){.Dlogo{padding-left: -11500px;}}
