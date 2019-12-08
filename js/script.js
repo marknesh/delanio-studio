@@ -1,11 +1,18 @@
-$("h6.iconDesign").click(function(){
+
+
+$("img.iconDesign").click(function(){
     $("p.hideDesign").toggle()
 })
-$("h6.iconDevelopment").click(function(){
+$("img.iconDevelopment").click(function(){
     $("p.hideDevelopment").toggle()
 })
-$("h6.iconProduct").click(function(){
-    $("p.hideProduct").toggle()
+$("img.iconProduct").click(function(){
+    $("p.hideProduct").toggle();
+})
 
-    event.preventDefault();
+    $("form.news").submit(function(){
+        alert("We have received your message and thankyou for contacting us ")
+   
+
+    
 })
