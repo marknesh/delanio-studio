@@ -65,7 +65,7 @@ padding: 0;
 div p.keyboardImageText{margin: 0;
     padding: 0;
 margin-left: 0;
-margin-top: 80px;
+margin-top: 60px;
 text-align:center ;
 color: whitesmoke;}
 
@@ -125,7 +125,7 @@ height: auto;}
 
 
 
-@media screen and(max-width: 700px){.Dlogo{padding-left: -11500px;}}
+@media screen and(max-width: 800px){.Dlogo{padding-left: -11500px;}}
 
 
 
