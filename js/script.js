@@ -29,8 +29,8 @@ $("p.hideProduct").click(function(){
 
     $("form.news").submit(function(){
         alert("We have received your message and thankyou for contacting us ")
+        
    
 
     
 })
-event.preventDefault();
