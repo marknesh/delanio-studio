@@ -110,7 +110,9 @@ img.iconProduct{cursor: pointer;
 margin-right: auto;
 display: block;
 width: 50%;
-height
+height: auto;}
+
+.img1:hover{opacity: 0.5;}
 .img2:hover{opacity: 0.5;}
 .img3:hover{opacity: 0.5;}
 .img4:hover{opacity: 0.5;}
