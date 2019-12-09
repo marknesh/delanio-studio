@@ -11,6 +11,7 @@ Please click the link above to see the website and give me feedback on where we 
 First you visit our website (the link is provided above) to see how we work with our customers.
 We have a team of commited engineers are fluent in the latest enterprise, mobile and web development technologies who ensure
 everything is up and running well.
+We design the websites using html,css,javascript,ruby,jquery e.t.c
 You can contact us in the form provided in the website.
 Then we will get back to you as soon as possible.
 
