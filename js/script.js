@@ -33,3 +33,4 @@ $("p.hideProduct").click(function(){
 
     
 })
+event.preventDefault();
