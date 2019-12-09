@@ -1,7 +1,8 @@
 
 $("img.iconDesign").click(function(){
-    $("p.hideDesign").toggle()
     $("img.iconDesign").hide()
+    $("p.hideDesign").toggle()
+   
 
 })
 
@@ -26,8 +27,11 @@ $("p.hideProduct").click(function(){
     $("p.hideProduct").hide()
 })
 
-    $("form.news").submit(function(){
+    $("form.bottomMail").submit(     
+        
+        function(){
         alert("We have received your message and thankyou for contacting us ")
+        
         
    
 
