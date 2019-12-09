@@ -1,5 +1,4 @@
 
-
 $("img.iconDesign").click(function(){
     $("p.hideDesign").toggle()
     $("img.iconDesign").hide()
