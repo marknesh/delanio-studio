@@ -153,7 +153,7 @@ img.iconProduct {
     width: 50%;
     height: auto;
 }
-
+/* 
 .img1:hover {
     opacity: 0.5;
 }
@@ -184,7 +184,7 @@ img.iconProduct {
 
 .img8:hover {
     opacity: 0.5;
-}
+} */
 .name, .required, .message{
     background: transparent;
     color: white;

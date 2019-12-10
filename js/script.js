@@ -28,6 +28,14 @@ $("p.hideProduct").click(function(){
     $("p.hideProduct").hide()
 })
 
+$(".imgPortfolio").hover(function(){
+    $(this).css("opacity","0.5")
+},function(){
+        $(this).css("opacity","1")
+       
+    });
+    
+
 
     $("form.bottomMail").submit(     
         
