@@ -105,7 +105,6 @@ h6 {
     font-style: bold;
     font-size: 20px;
 text-align: center;
-
 }
 
 
@@ -117,15 +116,12 @@ text-align: center;
 
 .hideDevelopment {
     display: none;
-    text-align: center;
-       
-
+    text-align: center
 }
 
 .hideProduct {
     display: none;
-    text-align: center;
-    margin-top: -10px;
+    text-align: center
 }
 
 img.iconDesign {
@@ -148,7 +144,6 @@ img.iconProduct {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    
 }
 
 .socialIcons {
@@ -205,6 +200,13 @@ img.iconProduct {
 .button{
     flex-wrap: wrap-reverse;
 }
+
+.middle{opacity: 0;}
+.effect:hover .middle{opacity: 1;
+color:firebrick;
+font-size: 2em;
+text-align: center;}
+
 
 @media screen and(max-width: 800px) {
     .Dlogo {
